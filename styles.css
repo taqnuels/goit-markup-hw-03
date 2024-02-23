@@ -1,0 +1,178 @@
+/* Ogólne style dla całego dokumentu */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Resetowanie marginesów dla nagłówków, paragrafów i list */
+body,
+h1,
+h2,
+h3,
+p,
+li {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Style dla przycisków */
+.button {
+    padding: 10px 20px;
+}
+
+/* Nagłówek strony */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Nawigacja */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+/* Sekcje na stronie */
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Obrazy w sekcjach */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Stopka strony */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style dla przycisków i linków po najechaniu kursorem */
+.button,
+a {
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+a:hover,
+a:focus {
+    color: #ff5733;
+}
+
+/* Dodatkowe style dla linków w stopce */
+footer a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+/* Stopka strony - dodatkowe style */
+.stopka {
+    background-color: #2e2f42;
+    color: white;
+    padding: 10px;
+}
+
+/* Logo na stronie */
+.logo {
+    font-family: "relaway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* Styl dla paragrafu w stopce */
+.footer-paragraph {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+
+/* Styl dla tekstu w logo w stopce */
+.logo-text {
+    color: #f4f4fd;
+}
+
+/* Dodatkowe style dla linków w stopce po najechaniu kursorem */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Nagłówek sekcji */
+.section-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Styl dla listy po nagłówku */
+h2+ul {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+/* Styl dla pierwszego akapitu w sekcji */
+.pierwszy-akapit {
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Kontener ogólny */
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Dodatkowe style dla sekcji */
+main section {
+    flex: 1;
+    margin-bottom: 0;
+    /* Usunięcie marginesu dolnego między sekcjami */
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Dodatkowe style dla sekcji Our Portfolio */
+main section#portfolio ul li {
+    border-bottom: 1px solid #ccc;
+    /* Obramowanie u dołu karty */
+}
